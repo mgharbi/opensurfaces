@@ -43,7 +43,7 @@ sudo rm -f /usr/bin/lessc /usr/local/bin/lessc
 
 echo "Install newest node"
 #sudo add-apt-repository ppa:chris-lea/node.js
-sudo add-apt-repository -y ppa:richarvey/nodejs
+# sudo add-apt-repository -y ppa:richarvey/nodejs
 sudo apt-get update -y
 sudo apt-get install -y nodejs npm
 echo "Node version:"
